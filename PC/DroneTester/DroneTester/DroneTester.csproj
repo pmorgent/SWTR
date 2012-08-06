@@ -35,6 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SWAT.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -109,6 +112,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\C2Cico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\BAELogo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\BAELogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SWAT.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

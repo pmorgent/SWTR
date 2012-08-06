@@ -143,7 +143,6 @@ namespace DroneTester
             {
                 MessageBox.Show("IP address out of range");
                 txtIP.Text = "";
-                resetGUI();
                 return;
             }
 
@@ -154,8 +153,8 @@ namespace DroneTester
             // Set the button configuration
 
            
-            
-            
+            btnDisconnect.IsEnabled = true;
+            btnConnect.IsEnabled = false;
 
 
             // Initialise a connection to the RCRX routine
@@ -164,8 +163,7 @@ namespace DroneTester
 
             // Change the indicator icon
             imgStatus.Source = new BitmapImage(new Uri(@"pack://application:,,,/DroneTester;component/img/green.png"));
-            btnDisconnect.IsEnabled = true;
-            btnConnect.IsEnabled = false;
+
             // Immediate error check, we may have connected to a valid TCP/IP device, but not a drone!
             if (drone.isError())
             {
@@ -185,8 +183,6 @@ namespace DroneTester
             lSignal.Content = "0";
             lHMCBearing.Content = "0";
             lAnalog.Content = "0";
-            slPin3.Value = 90;
-            slPin5.Value = 90;
             btnDisconnect.IsEnabled = false;
             btnConnect.IsEnabled = true;
             imgStatus.Source = new BitmapImage(new Uri(@"pack://application:,,,/DroneTester;component/img/red.png"));

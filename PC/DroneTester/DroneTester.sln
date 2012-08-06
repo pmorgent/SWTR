@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneTester", "DroneTester\DroneTester.csproj", "{5B98729D-8FAA-4811-BA45-590F1B1C5C94}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SWAT Drone Controller", "SWAT Drone Controller\SWAT Drone Controller.vdproj", "{D5367FE9-528F-4CC2-82BB-AAF956C80DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{5B98729D-8FAA-4811-BA45-590F1B1C5C94}.Debug|x86.Build.0 = Debug|x86
 		{5B98729D-8FAA-4811-BA45-590F1B1C5C94}.Release|x86.ActiveCfg = Release|x86
 		{5B98729D-8FAA-4811-BA45-590F1B1C5C94}.Release|x86.Build.0 = Release|x86
+		{D5367FE9-528F-4CC2-82BB-AAF956C80DAF}.Debug|x86.ActiveCfg = Debug
+		{D5367FE9-528F-4CC2-82BB-AAF956C80DAF}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
